@@ -83,12 +83,14 @@ p {
 }
 .primary {
   background-color: var(--primary-color);
+  color: white;
 }
 .secondary {
   background-color: var(--secondary-color);
 }
 .accent1 {
   background-color: var(--accent1-color);
+  color: white;
 }
 .accent2{
   background-color: var(--accent2-color);
