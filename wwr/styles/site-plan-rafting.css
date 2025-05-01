@@ -21,10 +21,10 @@ Fonts are separated by a & */
   --paragraph-color-on-white: #256163; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */ 
   --paragraph-background-color: #256163;
-  --nav-link-color: #256163;
-  --nav-background-color: #5C0029;
+  --nav-link-color: #FFFFFF;
+  --nav-background-color: #736F72;
   --nav-hover-link-color: #FFFFFF;
-  --nav-hover-background-color: #256163;
+  --nav-hover-background-color: #5C0029;
 }
 
 
@@ -83,14 +83,15 @@ p {
 }
 .primary {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--paragraph-color-on-color);
 }
 .secondary {
   background-color: var(--secondary-color);
+  color: var(--paragraph-color-on-color);
 }
 .accent1 {
   background-color: var(--accent1-color);
-  color: white;
+  color: var(--paragraph-color-on-color);
 }
 .accent2{
   background-color: var(--accent2-color);
