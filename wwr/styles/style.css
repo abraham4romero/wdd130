@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Trade+Winds&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -23,15 +26,25 @@ nav a {
 
 main section {
     text-align: center;
+    box-sizing: border-box;
 }
 
 #background {
     height: 725px;
-    background-color: #256163;
+    background-color: #736F72;
 }
 
 body {
     background-color: white;
+    font-family: Assistant, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: "Trade Winds";
+    margin: 0;
 }
 
 header {
@@ -47,6 +60,10 @@ nav a:hover {
     background-color: #5C0029;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -54,8 +71,18 @@ nav a:hover {
     color: white;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
+}
+
 .msg {
     background-color: #256163;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -64,10 +91,14 @@ nav a:hover {
 
 .msg p {
     color: white;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #736F72;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -88,8 +119,14 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .home-title {
     color: #000000;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -100,6 +137,11 @@ h4 {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
