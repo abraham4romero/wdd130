@@ -1,0 +1,47 @@
+body {
+    background-color: #5CA1D7;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+}
+
+#title {
+    color: white;
+}
+
+#title:hover {
+    color: black;
+}
+
+p {
+    color: white;
+}
+
+.list {
+    text-align: left;
+    font-weight: bold;
+}
+
+#small-quote {
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#big-quote {
+    color: white;
+    font-size: 30px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+#official-title {
+    width: 75%;
+}
+
+footer p {
+    color: black;
+    margin: 7px auto;
+    font-size: 14px;
+    font-weight: bold;
+}
