@@ -1,0 +1,32 @@
+body {
+    margin: 0px auto;
+    max-width: 1280px;
+}
+    
+#main-image {
+    max-width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    font-size: 0px;
+    display: block;
+}
+
+#bottom-section {
+    max-width: 100%;
+    background-color: #737373;
+    padding: 3% 7%;
+    margin: 0px 0px;
+    text-align: center;
+    font-size: 0px;
+    box-sizing: border-box;
+}
+
+.image {
+    margin: 0px 2%;
+    width: 25%;
+    border-radius: 50%;
+    padding: 0px;
+    border: 10px solid #444444;
+    font-size: 0px;
+    box-sizing: border-box  ;
+}
