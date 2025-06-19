@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Trade+Winds&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #5C0029;
+    color: white;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+header {
+    background-color:rgba(37,97,99, 1);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+body {
+    background-color: white;
+    font-family: Assistant, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #736F72;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer p {
+    font-size: 1.2em;
+    color: white;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.home-title {
+    color: #000000;
+    font-size: 2em;
+    margin-top: 50px;
+    justify-self: center;
+}
+
+h1, h2 {
+    font-family: "Trade Winds";
+    margin: 0;
+}
+
+.river-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 11fr 1fr;
+    margin-top: 50px;
+}
+
+.river-section h2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding: 15px;
+    z-index: 2;
+    background-color: #5C0029;
+    color: #FFFFFF;
+    max-width:fit-content;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+}
+
+.river-section img {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    margin: 0;
+    margin-top: -40px;
+    padding: 0;
+    max-width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.river-section p {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    background-color: #256163;
+    margin: 0;
+    padding: 35px;
+    color: #FFFFFF;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+@media screen and (max-width: 900px) {
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    .river-section h2 {
+        grid-column: 1/5;
+        justify-self: center;
+        font-size: 0.9em;
+        padding: 10px;
+        max-width: 60%;
+        text-align: center;
+        border-radius: 14px;
+    }
+    .river-section img {
+        margin-top: -25px;
+    }
+    p {
+        font-size: 0.8em;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
